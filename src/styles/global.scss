@@ -1,0 +1,23 @@
+@import "./fonts.scss";
+@import "./colors.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: $yellow;
+  font-family: $font-book, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: $font-bold;
+}
+p {
+  font-family: $font-book;
+}
