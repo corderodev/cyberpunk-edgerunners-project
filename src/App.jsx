@@ -1,5 +1,9 @@
+import { HomeCover } from "./components/HomeCover";
+
 function App() {
-  return <h1>Hello Cyberpunk</h1>;
+  return (
+    <HomeCover />
+  );
 }
 
 export default App;
