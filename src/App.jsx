@@ -1,8 +1,12 @@
-import { HomeCover } from "./components/HomeCover";
+import { HomeCover } from './components/HomeCover';
+import { DateRelease } from './components/DateRelease';
 
 function App() {
   return (
-    <HomeCover />
+    <>
+      <HomeCover />
+      <DateRelease />
+    </>
   );
 }
 
