@@ -1,0 +1,39 @@
+.gallery-section__cards-container--card-video,
+.gallery-section__cards-container--card-img {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  align-items: center;
+  .card--img {
+    width: 100%;
+    height: 100%;
+    min-height: 120px;
+    max-height: 280px;
+    object-fit: cover;
+  }
+  .corner-transparent {
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    bottom: -1px;
+    left: -1px;
+    display: block;
+    position: absolute;
+    border-left: 24px solid black;
+    border-top: 24px solid transparent;
+  }
+  .btn-play {
+    position: absolute;
+  }
+}
+
+@media (min-width: 1440px) {
+  .gallery-section__cards-container--card-img,
+  .gallery-section__cards-container--card-video {
+    width: 100%;
+  }
+}
