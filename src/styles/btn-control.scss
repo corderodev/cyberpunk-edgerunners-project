@@ -1,0 +1,42 @@
+.btn-gallery {
+  width: 8.75rem;
+  height: 3.125rem;
+  font-size: 1.25rem;
+  font-family: $font-bold;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+
+  &--next {
+    background: linear-gradient(-45deg, transparent 6%, $green 5%);
+  }
+
+  &--previous {
+    background: linear-gradient(45deg, transparent 6%, $green 5%);
+  }
+
+  &--disabled-next {
+    background: linear-gradient(-45deg, transparent 6%, rgb(203, 203, 203) 5%);
+  }
+
+  &--disabled-previous {
+    background: linear-gradient(45deg, transparent 6%, rgb(203, 203, 203) 5%);
+  }
+
+  &--next:hover {
+    background-color: $teal;
+    background: linear-gradient(-45deg, transparent 6%, $teal 5%);
+  }
+
+  &--previous:hover {
+    background-color: $teal;
+    background: linear-gradient(45deg, transparent 6%, $teal 5%);
+  }
+}
+@media (max-width: 319px) {
+  .btn-gallery {
+    width: 7.5rem;
+  }
+}
