@@ -4,8 +4,8 @@
   min-height: 33.15rem;
   display: grid;
   grid-template-rows: 1fr auto;
-  background: url('../assets/img/keyart-border-left.png'),
-    url('../assets/img/keyart-border-right.png');
+  background: url('../assets/img/keyart-border-left.webp'),
+    url('../assets/img/keyart-border-right.webp');
   background-repeat: no-repeat;
   background-position: 0 0, 100% 0;
 
@@ -16,7 +16,7 @@
     position: absolute;
     min-height: 33.15rem;
     height: 85vh;
-    background: url('../assets/img/cover-home.jpg') no-repeat center;
+    background: url('../assets/img/cover-home.webp') no-repeat center;
     background-position-y: top;
     background-size: cover;
   }
@@ -27,8 +27,8 @@
     min-height: 31.25rem;
     display: grid;
     grid-template-rows: 16% 2fr auto auto;
-    background: url('../assets/img/keyart-border-left.png'),
-      url('../assets/img/keyart-border-right.png');
+    background: url('../assets/img/keyart-border-left.webp'),
+      url('../assets/img/keyart-border-right.webp');
     background-repeat: no-repeat;
     background-position: 0 0, 100% 0;
   }

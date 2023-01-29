@@ -2,7 +2,7 @@ import { BtnPlay } from './BtnPlay';
 import cdpred from '../assets/img/logo-cdpred.svg';
 import trigger from '../assets/img/logo-trigger.svg';
 import xMark from '../assets/img/x-mark.svg';
-import logoEdgerunners from '../assets/img/logo-edgerunners.png';
+import logoEdgerunners from '../assets/img/logo-edgerunners.webp';
 import fb from '../assets/img/facebook.svg';
 import ig from '../assets/img/instagram.svg';
 import tw from '../assets/img/twitter.svg';

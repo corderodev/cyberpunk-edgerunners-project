@@ -1,5 +1,5 @@
-import summary1 from '../assets/img/summary-1.png';
-import summary2 from '../assets/img/summary-2.png';
+import summary1 from '../assets/img/summary-1.webp';
+import summary2 from '../assets/img/summary-2.webp';
 
 export const SummarySection = () => {
   return (
