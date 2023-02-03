@@ -1,6 +1,6 @@
 const BtnNext = ({ handler, text, page }) => {
-  const classBtnNext = 'btn-gallery btn-gallery--next';
-  const classDisabledNext = 'btn-gallery btn-gallery--disabled-next';
+  const classBtnNext = 'control-btn control-btn--next';
+  const classDisabledNext = 'control-btn control-btn--disabled-next';
 
   return (
     <button onClick={handler} className={page === 2 ? `${classDisabledNext}` : `${classBtnNext}`}>
@@ -10,8 +10,8 @@ const BtnNext = ({ handler, text, page }) => {
 };
 
 const BtnPrevious = ({ handler, text, page }) => {
-  const classBtnPrevious = 'btn-gallery btn-gallery--previous';
-  const classDisabledPrevious = 'btn-gallery btn-gallery--disabled-previous';
+  const classBtnPrevious = 'control-btn control-btn--previous';
+  const classDisabledPrevious = 'control-btn control-btn--disabled-previous';
 
   return (
     <button

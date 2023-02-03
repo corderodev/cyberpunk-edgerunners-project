@@ -1,5 +1,5 @@
 import { CardVideo, CardImage } from './CardsGallery';
-import { BtnNext, BtnPrevious } from './BtnGallery';
+import { BtnNext, BtnPrevious } from './ControlBtn';
 import { useState } from 'react';
 
 import img1 from '../assets/img/gallery-1.webp';
