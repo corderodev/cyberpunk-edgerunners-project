@@ -1,0 +1,47 @@
+.glossary {
+  background: url('../assets/img/separator-top-black.svg') repeat-x top;
+  padding: 6rem 1rem 4rem;
+  overflow: hidden;
+
+  .glossary__header {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &--title {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      color: $black;
+    }
+  }
+}
+@media (min-width: 425px) {
+  .glossary {
+    .glossary__header {
+      &--title {
+        font-size: 3.75rem;
+      }
+    }
+  }
+}
+@media (min-width: 768px) {
+  .glossary {
+    padding: 6rem 4rem 4rem;
+    .glossary__header {
+      position: relative;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .glossary {
+    padding: 6rem 6rem 4rem;
+    .glossary__header {
+      justify-content: center;
+    }
+  }
+}
