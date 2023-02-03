@@ -1,0 +1,35 @@
+.glossary__header--switcher {
+  width: 100%;
+  margin: 2rem auto 0;
+  .switch {
+    width: 50%;
+    min-width: 7.5rem;
+    height: fit-content;
+    padding: 0.8rem;
+    font-size: 1.375rem;
+    font-family: $font-bold;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+    &-btn-active {
+      background-color: $black;
+      color: $yellow;
+    }
+    &-btn-disabled {
+      background-color: transparent;
+      color: $black;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .glossary__header--switcher {
+    width: fit-content;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    .switch {
+      width: fit-content;
+    }
+  }
+}
