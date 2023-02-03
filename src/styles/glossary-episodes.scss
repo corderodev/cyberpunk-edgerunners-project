@@ -1,0 +1,111 @@
+.glossary__content-episodes {
+  margin: 0 auto;
+  max-width: 87.5rem;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-top: 1px solid rgba($color: $black, $alpha: 0.2);
+  border-bottom: 1px solid rgba($color: $black, $alpha: 0.2);
+  position: relative;
+  &--aside-episodes {
+    font-size: 1.375rem;
+    .select-container {
+      position: relative;
+      margin: 0 auto;
+      display: inline-block;
+      width: 100%;
+      max-width: 32.5rem;
+      &::after {
+        content: '';
+        pointer-events: none;
+        position: absolute;
+        right: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 9px solid rgb(0, 0, 0);
+      }
+      select {
+        width: 100%;
+        margin: 0 auto;
+        padding: 1rem 1rem;
+        font-size: 1.25rem;
+        font-family: $font-bold;
+        text-align: start;
+        text-transform: capitalize;
+        border: 2px solid $black;
+        background-color: transparent;
+        appearance: none;
+
+        &:focus {
+          outline: none;
+        }
+
+        option {
+          background-color: $yellow;
+          &:focus {
+            background-color: $black;
+          }
+        }
+      }
+    }
+    ul {
+      display: none;
+      list-style: none;
+
+      li {
+        padding: 0.5rem 1rem;
+        font-size: 1.25rem;
+        font-family: $font-bold;
+        text-align: start;
+        cursor: pointer;
+      }
+      .activeEpisode {
+        color: $yellow;
+        background-color: $black;
+      }
+    }
+  }
+  .glossary__content-episodes--articles {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+@media (min-width: 876px) {
+  .glossary__content-episodes {
+    .glossary__content-episodes--articles {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .glossary__content-episodes {
+    display: grid;
+    grid-template-columns: 20% 1fr;
+    &--aside-episodes {
+      .select-container {
+        display: none;
+      }
+      ul {
+        display: block;
+      }
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .glossary__content-episodes {
+    display: grid;
+    grid-template-columns: 15% 1fr;
+    &--aside-episodes {
+      display: block;
+    }
+  }
+}
