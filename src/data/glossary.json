@@ -1,0 +1,131 @@
+[
+  {
+    "id": 0,
+    "title": "Animals",
+    "body": "A well-known gang from west Pacifica - The Animals - invented, then polished to perfection, a method of street fighting that lets them take on implanted opponents while using custom-brewed artisanal implants that eschew electronics. Their ferocity and love of battle make them prized bouncers and guards."
+  },
+  {
+    "id": 1,
+    "title": "Arasaka",
+    "body": "The Arasaka Corporation is the longest-operating megacorp in the world and a global leader in security. Today, they are known as an arms-manufacturing giant that has had its hands in military conflicts across all continents. Due to the latest advances in technology and the company's seemingly unlimited capital, Arasaka is poised to achieve its political goals on a massive scale.",
+    "episode": 1
+  },
+  {
+    "id": 2,
+    "title": "BD (brain dance)",
+    "body": "Braindance is the transfer of the conscious experiences of the person who recorded (or scrolled) them to one who relives them with the same ease as watching a movie. The raw material must first be processed, or edited, before it can be used.",
+    "episode": 1
+  },
+  {
+    "id": 3,
+    "title": "Corpo",
+    "body": "Corporates (or in short corpos) are the upper class in Night City. Rich, powerful and persuasive could be their slogan. A nice suit is their trademark. Characters who have sworn themselves to one corporate master or another are known as Corpos.",
+    "episode": 2
+  },
+  {
+    "id": 4,
+    "title": "cyberpsychosis",
+    "body": "Cyberpsychosis is a collective term for all psychotic and anxiety-related personality disorders caused by hardware implanted in the body and any and all behavioral mods, including software. Most people believe that this disorder is caused by faulty cyberware, but not everyone agrees.",
+    "episode": 1
+  },
+  {
+    "id": 5,
+    "title": "Cyberpunk (Edgerunner)",
+    "body": "Cyberpunk or Edgerunner is someone who lives on the edge and always pushes themselves to the limit. More than simply being a striver, an Edgerunner continually puts themselves in danger and lives close to failure in a world where the price of failure is death.",
+    "episode": 1
+  },
+  {
+    "id": 6,
+    "title": "CyberWare (Implant or Chrome)",
+    "body": "Cyberware (implants or chrome) is a device implanted in the human body. There are many different types. Examples range from those mounted in the eyes to enhance vision to those mounted in the legs to increase jumping ability.",
+    "episode": 1
+  },
+  {
+    "id": 7,
+    "title": "Fixer",
+    "body": "A fixer is an intermediary, a middleman between mercs and clients. They will choose your crew, negotiate a decent payout (after all, he or she's taking a cut), and pull you out of whatever you might land in on the job (unless it was your gonk fault, in which case - you're on your own).",
+    "episode": 3
+  },
+  {
+    "id": 8,
+    "title": "ICE (Intrusion CounterMeasures Electronics)",
+    "body": "ICE stands for Intrusion Countermeasures Electronics, the most advanced form of security on the Net. Every sane corporation has a crack division of netrunners making sure their data fortress is well-protected. Meanwhile, every self-respecting netrunner does everything they can to find a backdoor in corporate ICE and gain access to their subnet.",
+    "episode": 1
+  },
+  {
+    "id": 9,
+    "title": "Maelstrom",
+    "body": "Maelstrom is a gang that controls the districts of Watson and the Northside Industrial District (NID). You can easily recognize them by their intimidating faceplates and hostile optic implants, indicating their gang affiliation and their fetishization of cyberware and cybermodification.",
+    "episode": 4
+  },
+  {
+    "id": 10,
+    "title": "MaxTac",
+    "body": "MaxTac is an elite, special ops division of the NCPD with a singular aim: eliminate cyberpsychos. MaxTac officers enjoy their pick of weapons, the best cyberware, fresh, prototype gear and a free hand in carrying out their ops. But despite these overwhelming privileges, nobody in their right mind would ever join the force.",
+    "episode": 1
+  },
+  {
+    "id": 11,
+    "title": "Militech",
+    "body": "Founded towards the end of the 20th century, Militech is an American arms production and military service provider powerhouse. These days they are one of the key global players in the private military sector.",
+    "episode": 7
+  },
+  {
+    "id": 12,
+    "title": "NCPD (Night City Police Departament / Night City Police)",
+    "body": "Night City Police Department (NCPD) is a corporate-backed police force that protects public safety in Night City. They exist to keep the city peaceful enough that corporations can do what corporations do.",
+    "episode": 1
+  },
+  {
+    "id": 13,
+    "title": "NetRunner",
+    "body": "A netrunner knows the ins and outs of computer systems, the programming languages, how to write or mod a killer virus. Deck in hand, they're just as dangerous as a corporate soldier armed to the teeth. Many netrunners are free agents working only for themselves, but a few have signed their own pacts with the megacorps and work to keep corporate data fortresses solid and impenetrable. Today, each and every corporation has a veritable army of netrunners on its payroll.",
+    "episode": 4
+  },
+  {
+    "id": 14,
+    "title": "Night City",
+    "body": "Night City is a dream city built at the end of the 20th century based on an urban vision by industrialist Richard Night. He aimed to create a future city that was not bound by old ideas and cramped rules. Watson and Santo Domingo are only two out of six districts, each inhabited by a different gang."
+  },
+  {
+    "id": 15,
+    "title": "RipperDoc (Ripper)",
+    "body": "A ripperdoc is someone between a surgeon, techie and an artist. First, they can get you chipped with the latest implant on the market just because you can afford it. Then, if you're unlucky, a friend will drop you off at their clinic in pieces, and hopefully, they can put you back together.",
+    "episode": 1
+  },
+  {
+    "id": 16,
+    "title": "Sandevistan",
+    "body": "Sandevistan (cyberware) is a temporary status effect that can be activated on demand. Sandevistan will slow down time to a certain percentage for a set duration. Because of that, the user of that cyberware moves too fast, and ordinary humans cannot catch the movements.",
+    "episode": 1
+  },
+  {
+    "id": 17,
+    "title": "Scavengers",
+    "body": "The scavengers specialize in acquiring high-quality implants. Purposes vary, ranging from robbing the subject to illegal trafficking.",
+    "episode": 2
+  },
+  {
+    "id": 18,
+    "title": "Solo",
+    "body": "Solo is a freelance mercenary who takes on dangerous commissions within Night City, mostly fighting with weapons and cyberware. Often hired for jobs that include murder, escort, theft, etc."
+  },
+  {
+    "id": 19,
+    "title": "Techie",
+    "body": "Techies are the sort to cut their teeth on tech by taking it apart and putting it back together. They open an electric panel and not only know how to shut off the power, but also send an elevator to a specific floor, reconnect alarm systems or control a military bot from a safe, remote distance. They're also needed wherever hardware meets soft - braindance editing being one common example.",
+    "episode": 4
+  },
+  {
+    "id": 20,
+    "title": "Trauma Team",
+    "body": "Trauma Team International is the largest provider of medical services in Night City, ranging from healthcare products, to health insurance, to medical-grade implants and replacement surgery. This may be the only corporation that enjoys such a high level of public trust.",
+    "episode": 1
+  },
+  {
+    "id": 21,
+    "title": "Tyger Claws",
+    "body": "As a gang the Tyger Claws are well-organized, efficient and savvy - but also unpredictable. Many members are of Asian descent. Mainly operate out of Japantown, Little China, Kabuki and Charter Hill.",
+    "episode": 3
+  }
+]
