@@ -61,7 +61,7 @@ export const Factions = () => {
     <section className="glossary__content-factions">
       <aside className="glossary__content-factions--aside-factions">
         <div className="select-container">
-          <select value={faction} onChange={(e) => setFaction(data[e.target.value])}>
+          <select onChange={(e) => setFaction(data[e.target.value])}>
             {data.map((item, index) => {
               return (
                 <option value={index} key={item.id}>

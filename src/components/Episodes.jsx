@@ -57,7 +57,7 @@ export const Episodes = () => {
     <section className="glossary__content-episodes">
       <aside className="glossary__content-episodes--aside-episodes">
         <div className="select-container">
-          <select value={episode} onChange={(e) => setEpisode(e.target.value)}>
+          <select onChange={(e) => setEpisode(e.target.value)}>
             <option value={1}>Episode 1</option>
             <option value={2}>Episode 2</option>
             <option value={3}>Episode 3</option>
