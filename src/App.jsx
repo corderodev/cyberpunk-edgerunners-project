@@ -3,6 +3,7 @@ import { DateRelease } from './components/DateRelease';
 import { SummarySection } from './components/SummarySection';
 import { Gallery } from './components/Gallery';
 import { Glossary } from './components/Glossary';
+import { NewsLetter } from './components/NewsLetter';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SummarySection />
       <Gallery />
       <Glossary />
+      <NewsLetter />
     </>
   );
 }
