@@ -1,13 +1,10 @@
 import { BtnPlay } from './BtnPlay';
+import { Facebook, Instagram, Twitter } from './Icons';
+
 import cdpred from '../assets/img/logo-cdpred.svg';
 import trigger from '../assets/img/logo-trigger.svg';
 import xMark from '../assets/img/x-mark.svg';
 import logoEdgerunners from '../assets/img/logo-edgerunners.webp';
-import fb from '../assets/img/facebook.svg';
-import ig from '../assets/img/instagram.svg';
-import tw from '../assets/img/twitter.svg';
-
-const linkVideo = 'https://www.youtube.com/watch?v=OiR_lMNlJko';
 
 export const HomeCover = () => {
   return (
@@ -30,7 +27,7 @@ export const HomeCover = () => {
         </div>
 
         <div className="home__content-container">
-          <BtnPlay link={linkVideo} />
+          <BtnPlay link="https://www.youtube.com/watch?v=OiR_lMNlJko" />
           <img
             className="home__content-container--logo-edgerunners"
             src={logoEdgerunners}
@@ -40,13 +37,13 @@ export const HomeCover = () => {
 
         <div className="home__social-container">
           <a href="https://www.facebook.com/edgerunners" target="_blank">
-            <img src={fb} alt="Facebook" />
+            <Facebook fill="#fcee0a" class="facebook" />
           </a>
           <a href="https://www.instagram.com/edgerunners" target="_blank">
-            <img src={ig} alt="Instagram" />
+            <Instagram fill="#fcee0a" class="instagram" />
           </a>
           <a href="https://twitter.com/edgerunners" target="_blank">
-            <img src={tw} alt="Twitter" />
+            <Twitter fill="#fcee0a" class="twitter" />
           </a>
         </div>
       </div>
