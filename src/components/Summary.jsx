@@ -1,7 +1,7 @@
 import summary1 from '../assets/img/summary-1.webp';
 import summary2 from '../assets/img/night-city.webp';
 
-export const SummarySection = () => {
+export const Summary = () => {
   return (
     <section className="summary-section">
       <p>

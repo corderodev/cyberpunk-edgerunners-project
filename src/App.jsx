@@ -1,6 +1,6 @@
 import { HomeCover } from './components/HomeCover';
 import { DateRelease } from './components/DateRelease';
-import { SummarySection } from './components/SummarySection';
+import { Summary } from './components/Summary';
 import { Gallery } from './components/Gallery';
 import { Glossary } from './components/Glossary';
 import { NewsLetter } from './components/NewsLetter';
@@ -12,7 +12,7 @@ function App() {
     <>
       <HomeCover />
       <DateRelease />
-      <SummarySection />
+      <Summary />
       <Gallery />
       <Glossary />
       <NewsLetter />
