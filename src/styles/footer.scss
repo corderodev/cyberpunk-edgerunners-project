@@ -1,0 +1,17 @@
+.footer {
+  padding: 2rem 1rem;
+  text-align: center;
+  background: url('../assets/img/separator-bottom.svg') no-repeat top;
+  &__link-page {
+    font-family: $font-bold;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: $black;
+    text-decoration: underline solid rgba($color: #000000, $alpha: 0.2);
+    text-underline-offset: 4px;
+  }
+  &__link-page:hover {
+    transition: 400ms;
+    text-decoration: underline solid rgba($color: #000000, $alpha: 1);
+  }
+}
