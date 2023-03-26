@@ -2,7 +2,7 @@
 
 Clone page of the Netflix series, [Cyberpunk Edgerunners](https://www.cyberpunk.net/en/edgerunners).
 
-**View deploy:** [Cyberpunk Edgerunners Project](https://dnlambb.github.io/cyberpunk-edgerunners-project/)
+**View deploy:** [Cyberpunk Edgerunners Project](https://corderodev.github.io/cyberpunk-edgerunners-project/)
 ## Tech Stack
 
 - React
@@ -22,7 +22,7 @@ Clone page of the Netflix series, [Cyberpunk Edgerunners](https://www.cyberpunk.
 Clone the project
 
 ```bash
-  git clone https://github.com/dnlambb/cyberpunk-edgerunners-project.git
+  git clone https://github.com/corderodev/cyberpunk-edgerunners-project.git
 ```
 
 Go to the project directory
